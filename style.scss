@@ -1,0 +1,81 @@
+@import "compass";
+@import url(https://fonts.googleapis.com/css?family=Abel);
+// font-family
+$baseFontFamily :"游ゴシック", YuGothic, "メイリオ",Verdana, "Hiragino Kaku Gothic ProN", Meiryo, sans-serif;
+
+// colors
+$baseColor: #fdfcf6;
+$subColor: #bea300;
+$keyColor: #14c0c9;
+$fontColor: #4c4c4c;
+
+html {
+    font-size: 63%;
+}
+
+body {
+  color: $fontColor;
+  font-size: 1.4rem;
+  font-family:$baseFontFamily;
+  line-height:1.6;
+  letter-spacing: 0.1em;
+  background-color: $baseColor;
+}
+
+
+/*Photo部分*/
+.header-photo {
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+}
+
+
+/*main部分*/
+#main {
+    padding: 50px;
+}
+
+.text-center {
+    text-align: center;
+    font-size: 4rem;
+}
+
+.sub-title {
+    font-size: 2rem;
+    background-color: $keyColor;
+    padding: 5px;
+}
+
+.flex-container {
+    display: flex;
+}
+
+@media (max-width: 768px) {
+  .flex-container {
+    flex-direction: column;
+  }
+
+}
+
+.box {
+    flex: 1;
+    text-align: center;
+    background-color: $subColor;
+    margin: 10px;
+}
+
+/*contact部分*/
+#contact {
+    color: white;
+    background-color: black;
+    padding: 50px;
+}
+
+.button-wrapper {
+    text-align: center;
+}
+
+.btn-edge {
+    border-radius: 10px;
+}

@@ -1,0 +1,57 @@
+@charset "UTF-8";
+@import url(https://fonts.googleapis.com/css?family=Abel);
+html {
+  font-size: 63%; }
+
+body {
+  color: #4c4c4c;
+  font-size: 1.4rem;
+  font-family: "游ゴシック", YuGothic, "メイリオ", Verdana, "Hiragino Kaku Gothic ProN", Meiryo, sans-serif;
+  line-height: 1.6;
+  letter-spacing: 0.1em;
+  background-color: #fdfcf6; }
+
+/*Photo部分*/
+.header-photo {
+  width: 100%;
+  height: 500px;
+  object-fit: cover; }
+
+/*main部分*/
+#main {
+  padding: 50px; }
+
+.text-center {
+  text-align: center;
+  font-size: 4rem; }
+
+.sub-title {
+  font-size: 2rem;
+  background-color: #14c0c9;
+  padding: 5px; }
+
+.flex-container {
+  display: flex; }
+
+@media (max-width: 768px) {
+  .flex-container {
+    flex-direction: column; } }
+.box {
+  flex: 1;
+  text-align: center;
+  background-color: #bea300;
+  margin: 10px; }
+
+/*contact部分*/
+#contact {
+  color: white;
+  background-color: black;
+  padding: 50px; }
+
+.button-wrapper {
+  text-align: center; }
+
+.btn-edge {
+  border-radius: 10px; }
+
+/*# sourceMappingURL=style.css.map */
